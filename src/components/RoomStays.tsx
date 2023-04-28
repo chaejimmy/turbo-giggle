@@ -1,11 +1,11 @@
-import React from "react";
-import Image from "next/image";
-const links = ["Room Stays", "Find roommates"];
-import Find from "./Find";
+import React from 'react';
+import Image from 'next/image';
+const links = ['Room Stays', 'Find roommates'];
+import Find from './Find';
 export default function RoomStays() {
   return (
-    <div className="my-2 overflow-hidden ">
-      <div className="relative max-w-[1512px] max-h-[440px]">
+    <div className="my-2 overflow-hidden">
+      <div className="relative  max-h-[440px]">
         <Image
           src="/Images/Background.png"
           alt="Background Image"
@@ -33,7 +33,6 @@ export default function RoomStays() {
           </div>
         </div>
       </div>
-
     </div>
   );
 }
