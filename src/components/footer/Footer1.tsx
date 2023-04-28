@@ -1,13 +1,14 @@
-import {AiOutlineInstagram,AiOutlineGoogle,AiFillApple} from 'react-icons/ai' 
-import {BsFacebook,BsGooglePlay} from 'react-icons/bs' 
-import {FaAppStore} from 'react-icons/fa'
+import {AiOutlineInstagram, AiOutlineGoogle, AiFillApple} from 'react-icons/ai';
+import {BsFacebook, BsGooglePlay} from 'react-icons/bs';
+import {FaAppStore} from 'react-icons/fa';
 import Bluecard2 from '../bluecards/Bluecard2';
+import Logo from '../navbar/Logo';
 const Footer1 = () => {
   return (
     <div>
       <div>
-      <Bluecard2/>
-    </div>
+        <Bluecard2 />
+      </div>
       <footer className="w-full py-4 overflow-x-hidden text-gray-400">
         <div className="container flex justify-around mx-2 text-black ">
           <div>
@@ -67,22 +68,28 @@ const Footer1 = () => {
             <h2 className="text-sm font-semibold">Mobile App</h2>
             <ul className="mt-4 text-sm">
               <li className="mt-2">
-                <a href="#"><BsGooglePlay size={28} /></a>
+                <a href="#">
+                  <BsGooglePlay size={28} />
+                </a>
               </li>
               <li className="mt-3">
-                <a href="#"><FaAppStore size={28} /></a>
+                <a href="#">
+                  <FaAppStore size={28} />
+                </a>
               </li>
             </ul>
           </div>
         </div>
-        <div className="container flex justify-between mt-8 ">
-          <div className="font-semibold lg:ml-32">.totel</div>
-          <div>All rights reserved</div>
-          <div className='grid grid-flow-col gap-3 lg:mr-32'>
-          <BsFacebook/>
-          <AiOutlineGoogle/>
-          <AiFillApple/>
-          <AiOutlineInstagram size={18}/>
+        <div className="flex items-center justify-between p-8 mx-20">
+          <Logo />
+          <span className="text-gray-50 text-md">
+            © 2023 Totel. All Rights Reserved.
+          </span>
+          <div className="grid grid-flow-col gap-3">
+            <BsFacebook />
+            <AiOutlineGoogle />
+            <AiFillApple />
+            <AiOutlineInstagram size={18} />
           </div>
         </div>
       </footer>
