@@ -1,9 +1,9 @@
-"use client";
-import React from "react";
-import Avatar from "../Avatar";
+'use client';
+import React from 'react';
+import Avatar from '../../core-components/csr/atoms/avatar';
 
-import styles from "../Styles/NavbarButton.module.css"
-import Link from "next/link";
+import styles from '../Styles/NavbarButton.module.css';
+import Link from 'next/link';
 const Usermenu = () => {
   return (
     <div className="relative">
@@ -12,16 +12,13 @@ const Usermenu = () => {
           //onClick={onRent}
           className={styles.button}
         >
-          
           <Link href="/">
-            <p >Managing Listings</p>
+            <p>Managing Listings</p>
           </Link>
-          
-         
         </div>
         <div className="flex flex-row items-center gap-3 p-4 rounded-full cursor-pointer md:py-1 md:px-2">
           <div className="md:block">
-            <Avatar src={""} />
+            <Avatar src={''} />
           </div>
         </div>
       </div>
