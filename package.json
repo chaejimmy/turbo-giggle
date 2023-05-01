@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "postinstall": "npm run build"
+    "postinstall": "npm run build",
+    "docker": "docker-compose build --no-cache"
   },
   "dependencies": {
     "@bcad1591/react-date-picker": "^0.1.1",
