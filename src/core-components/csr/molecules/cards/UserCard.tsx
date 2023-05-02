@@ -1,8 +1,8 @@
-import React from "react";
-import styles from "../Styles/UserCard.module.css";
-import Image from "next/image";
-import { MdVerified } from "react-icons/md";
-import Link from "next/link";
+import React from 'react';
+import styles from '@/styles/modules/UserCard.module.css';
+import Image from 'next/image';
+import {MdVerified} from 'react-icons/md';
+import Link from 'next/link';
 export default function HotelCard() {
   return (
     <Link href="partnerdetails">

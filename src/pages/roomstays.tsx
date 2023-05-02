@@ -1,12 +1,12 @@
-import React from "react";
-import Logo from "../components/navbar/Logo";
-import Container from "../components/Container";
-import Search from "../components/navbar/Search";
-import Usermenu from "../components/navbar/Usermenu";
-import Image from "next/image";
-import Find from "@/components/Find";
-import Categories from "@/components/Categories";
-import Footer1 from "@/components/footer/Footer1";
+import React from 'react';
+import Logo from '../core-components/csr/molecules/navbar/Logo';
+import Container from '../core-components/csr/atoms/container';
+import Search from '../core-components/csr/molecules/navbar/Search';
+import Usermenu from '../core-components/csr/molecules/navbar/Usermenu';
+import Image from 'next/image';
+import Find from '@/core-components/csr/molecules/find';
+import Categories from '@/core-components/csr/molecules/categories';
+import Footer1 from '@/core-components/csr/molecules/footer/Footer1';
 
 const roomstays = () => {
   return (
@@ -14,7 +14,7 @@ const roomstays = () => {
       <div className="py-4">
         <Container>
           <div className="flex flex-row items-center justify-between gap-2 md:gap-0">
-            <Logo/>
+            <Logo />
             <Search />
             <Usermenu />
           </div>
@@ -31,12 +31,12 @@ const roomstays = () => {
         />
         <div className="absolute top-0 left-0 flex items-center justify-between w-full h-full">
           <div className="w-full mx-12 my-2 overflow-y-hidden text-center bg-white h-28 rounded-3xl">
-            <Find/>
+            <Find />
           </div>
         </div>
       </div>
-      <Categories/>
-      <Footer1/>
+      <Categories />
+      <Footer1 />
     </div>
   );
 };

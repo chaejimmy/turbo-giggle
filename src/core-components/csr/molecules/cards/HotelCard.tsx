@@ -1,8 +1,8 @@
-import React from "react";
-import styles from "../Styles/HotelCard.module.css";
-import Image from "next/image";
-import { FaRegStar } from "react-icons/fa";
-import Link from "next/link";
+import React from 'react';
+import styles from '@/styles/modules/HotelCard.module.css';
+import Image from 'next/image';
+import {FaRegStar} from 'react-icons/fa';
+import Link from 'next/link';
 export default function HotelCard() {
   return (
     <Link href="hoteldetails">

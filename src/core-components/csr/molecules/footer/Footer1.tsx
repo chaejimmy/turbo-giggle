@@ -1,7 +1,7 @@
 import {AiOutlineInstagram, AiOutlineGoogle, AiFillApple} from 'react-icons/ai';
 import {BsFacebook, BsGooglePlay} from 'react-icons/bs';
 import {FaAppStore} from 'react-icons/fa';
-import Bluecard2 from '../bluecards/Bluecard2';
+import Bluecard2 from '../../atoms/bluecards/Bluecard2';
 import Logo from '../navbar/Logo';
 const Footer1 = () => {
   return (
@@ -9,7 +9,7 @@ const Footer1 = () => {
       <div>
         <Bluecard2 />
       </div>
-      <footer className="w-full py-4 overflow-x-hidden text-gray-400">
+      <footer className="w-full py-4 overflow-x-hidden text-gray-400 ">
         <div className="container flex justify-around mx-2 text-black ">
           <div>
             <h2 className="text-sm font-semibold">Products</h2>

@@ -1,9 +1,8 @@
-import React from "react";
-import { BsClockHistory, BsCalendar4 } from "react-icons/bs";
-import { BiSearch } from "react-icons/bi";
-import styles from "./Styles/Find.module.css";
-import Link from "next/link";
-import Date from "../pages/date";
+import React from 'react';
+import {BsClockHistory, BsCalendar4} from 'react-icons/bs';
+import {BiSearch} from 'react-icons/bi';
+import styles from '@/styles/modules/Find.module.css';
+import Link from 'next/link';
 export default function () {
   return (
     <div className="flex items-center justify-center mt-3">
@@ -47,14 +46,14 @@ export default function () {
           </div>
         </div>
       </div>
-    
-        <div className="w-10 h-10 mt-5 ml-3 rounded-full bg-purple hover:cursor-pointer">
-          <Link href="searchfindstays">
+
+      <div className="w-10 h-10 mt-5 ml-3 rounded-full bg-purple hover:cursor-pointer">
+        <Link href="searchfindstays">
           <div className="hidden text-center text-white sm:block ">
             <BiSearch className="mt-3 ml-3 search-icon" />
           </div>
-          </Link>
-        </div>
+        </Link>
+      </div>
     </div>
   );
 }

@@ -1,14 +1,12 @@
-"use client";
-import React, { useCallback, useState } from "react";
-import styles from "../Styles/NavbarButton.module.css"
+'use client';
+import React, {useCallback, useState} from 'react';
+import styles from '@/styles/modules/NavbarButton.module.css';
 
 const Usermenu = () => {
   return (
     <div className="relative">
       <div className="flex flex-row items-center gap-3">
-        <div
-          className={styles.button}
-        >
+        <div className={styles.button}>
           <p className="sm:text-sm whitespace-nowrap">Create an Account</p>
         </div>
         <div>

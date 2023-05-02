@@ -1,8 +1,8 @@
 'use client';
 import React from 'react';
-import Avatar from '../../core-components/csr/atoms/avatar';
+import Avatar from '../../atoms/avatar';
 
-import styles from '../Styles/NavbarButton.module.css';
+import styles from '@/styles/modules/NavbarButton.module.css';
 import Link from 'next/link';
 const Usermenu = () => {
   return (

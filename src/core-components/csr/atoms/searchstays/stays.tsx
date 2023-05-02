@@ -1,9 +1,9 @@
-import { Carousel } from "react-responsive-carousel";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
-import Card from  "../cards/HotelCard"
-import React from "react";
-import styles from "./stays.module.css";
-import Image from "next/image";
+import {Carousel} from 'react-responsive-carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import Card from '../../molecules/cards/HotelCard';
+import React from 'react';
+import styles from './stays.module.css';
+import Image from 'next/image';
 export default function () {
   return (
     <div className="">
@@ -42,7 +42,8 @@ export default function () {
               <Card />
               <Card />
             </div>
-          </div><div>
+          </div>
+          <div>
             <div className="flex justify-center gap-3 mx-6">
               <Card />
               <Card />
@@ -61,9 +62,7 @@ export default function () {
           </div>
         </Carousel>
       </div>
-      <div>
-        Image will display here
-      </div>
+      <div>Image will display here</div>
     </div>
   );
 }

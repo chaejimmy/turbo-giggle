@@ -1,15 +1,15 @@
 import React from 'react';
-import Navbar from '@/components/navbar/Navbar';
+import Navbar from '@/core-components/csr/molecules/navbar/Navbar';
 import Image from 'next/image';
 import styles from '../styles/hoteldetails.module.css';
-import Container from '@/components/Container';
+import Container from '@/core-components/csr/atoms/container';
 import Avatar from '@/core-components/csr/atoms/avatar';
 import HiShieldCheck from 'react-icons/hi';
 import {IoShieldCheckmark} from 'react-icons/io5';
-import Detailscard from '@/components/detailcard/detailscard';
+import Detailscard from '@/core-components/csr/atoms/detailcard/detailscard';
 import {GiThreeLeaves} from 'react-icons/gi';
 import {TbToolsKitchen2} from 'react-icons/tb';
-import Footer1 from '@/components/footer/Footer1';
+import Footer1 from '@/core-components/csr/molecules/footer/Footer1';
 import Link from 'next/link';
 
 export default function Hoteldetails() {

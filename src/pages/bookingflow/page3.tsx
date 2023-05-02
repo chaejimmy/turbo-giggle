@@ -1,12 +1,12 @@
-import React from "react";
-import Navbar from "@/components/navbar/Navbar";
-import Container from "@/components/Container";
-import { BsClockHistory, BsCalendar4 } from "react-icons/bs";
-import styles from "./bookflow.module.css";
-import Link from "next/link";
-import Footer1 from "@/components/footer/Footer1";
-import { AiOutlineMinus, AiOutlinePlus } from "react-icons/ai";
-import Date from "../date";
+import React from 'react';
+import Navbar from '@/core-components/csr/molecules/navbar/Navbar';
+import Container from '@/core-components/csr/atoms/container';
+import {BsClockHistory, BsCalendar4} from 'react-icons/bs';
+import styles from './bookflow.module.css';
+import Link from 'next/link';
+import Footer1 from '@/core-components/csr/molecules/footer/Footer1';
+import {AiOutlineMinus, AiOutlinePlus} from 'react-icons/ai';
+import Date from '../date';
 export default function page1() {
   return (
     <div>
@@ -15,10 +15,11 @@ export default function page1() {
         <Container>
           <div className={styles.heading}>Set your availability</div>
           <div className={styles.des}>
-          Short titles work best. Have fun with it – you can always change it later.
+            Short titles work best. Have fun with it – you can always change it
+            later.
           </div>
           <div className={styles.cal}>
-            <Date/>
+            <Date />
           </div>
           <div className="flex justify-between mt-20 mb-10">
             <Link href="/bookingflow/page2">
