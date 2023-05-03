@@ -6,7 +6,7 @@ import Usermenu from '../core-components/csr/molecules/navbar/Usermenu';
 import Image from 'next/image';
 import Find from '@/core-components/csr/molecules/find';
 import Categories from '@/core-components/csr/molecules/categories';
-import Footer1 from '@/core-components/csr/molecules/footer/Footer1';
+import Footer1 from '@/core-components/csr/molecules/footer/footer';
 
 const roomstays = () => {
   return (

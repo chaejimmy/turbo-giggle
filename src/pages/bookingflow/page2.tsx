@@ -4,7 +4,7 @@ import Container from '@/core-components/csr/atoms/container';
 import {BsClockHistory, BsCalendar4} from 'react-icons/bs';
 import styles from './bookflow.module.css';
 import Link from 'next/link';
-import Footer1 from '@/core-components/csr/molecules/footer/Footer1';
+import Footer1 from '@/core-components/csr/molecules/footer/footer';
 import {AiOutlineMinus, AiOutlinePlus} from 'react-icons/ai';
 export default function page1() {
   return (

@@ -5,7 +5,7 @@ import Search from '../core-components/csr/molecules/navbar/Search';
 import Usermenu from '../core-components/csr/molecules/navbar/Usermenu';
 import Image from 'next/image';
 import Find from '@/core-components/csr/molecules/find';
-import Footer1 from '@/core-components/csr/molecules/footer/Footer1';
+import Footer1 from '@/core-components/csr/molecules/footer/footer';
 import Stays from '@/core-components/csr/atoms/searchstays/stays';
 
 const roomstays = () => {

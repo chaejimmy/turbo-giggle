@@ -8,7 +8,7 @@ import {IoShieldCheckmark} from 'react-icons/io5';
 import Detailscard from '@/core-components/csr/atoms/detailcard/partnerdetailscard';
 import {GiThreeLeaves} from 'react-icons/gi';
 import {TbToolsKitchen2} from 'react-icons/tb';
-import Footer1 from '@/core-components/csr/molecules/footer/Footer1';
+import Footer1 from '@/core-components/csr/molecules/footer/footer';
 import Link from 'next/link';
 import {MdVerified, MdReport} from 'react-icons/md';
 

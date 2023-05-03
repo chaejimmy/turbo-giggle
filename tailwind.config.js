@@ -4,6 +4,7 @@ module.exports = {
     './src/pages/**/*.{js,ts,jsx,tsx}',
     './src/core-components/**/*.{js,ts,jsx,tsx}',
     './src/app/**/*.{js,ts,jsx,tsx}',
+    './src/components/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
     extend: {
@@ -14,6 +15,7 @@ module.exports = {
       },
     },
     colors: {
+      red: '#FF0000',
       purple: '#574EFA',
       white: '#ffffff',
       blue: '#574EFA',
