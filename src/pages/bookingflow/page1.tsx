@@ -1,10 +1,10 @@
-import React from "react";
-import Navbar from "@/components/navbar/Navbar";
-import Container from "@/components/Container";
-import { BsClockHistory, BsCalendar4 } from "react-icons/bs";
-import styles from "./bookflow.module.css";
-import Link from "next/link";
-import Footer1 from "@/components/footer/Footer1";
+import React from 'react';
+import Navbar from '@/core-components/csr/molecules/navbar/Navbar';
+import Container from '@/core-components/csr/atoms/container';
+import {BsClockHistory, BsCalendar4} from 'react-icons/bs';
+import styles from './bookflow.module.css';
+import Link from 'next/link';
+import Footer1 from '@/core-components/csr/molecules/footer/Footer1';
 export default function page1() {
   return (
     <div>
@@ -47,22 +47,21 @@ export default function page1() {
           </div>
 
           <div className="flex justify-between mt-20 mb-10">
-          <Link href="/partnerdetails">
-          <button className="px-6 py-2 transition-colors duration-300 bg-white border rounded-full text-semibold black font- border-grey hover:bg-black hover:text-white hover:border-transparent">
-          Back
-          </button>
-          </Link>
-          
-          <Link href="/bookingflow/page2">
-          <button className="px-6 py-2 font-semibold text-white transition-colors duration-300 border border-white rounded-full bg-blue hover:bg-black hover:text-white hover:border-transparent">
-          Next
-          </button>
-          </Link>
-          
+            <Link href="/partnerdetails">
+              <button className="px-6 py-2 transition-colors duration-300 bg-white border rounded-full text-semibold black font- border-grey hover:bg-black hover:text-white hover:border-transparent">
+                Back
+              </button>
+            </Link>
+
+            <Link href="/bookingflow/page2">
+              <button className="px-6 py-2 font-semibold text-white transition-colors duration-300 border border-white rounded-full bg-blue hover:bg-black hover:text-white hover:border-transparent">
+                Next
+              </button>
+            </Link>
           </div>
         </Container>
       </div>
-      <Footer1/>
+      <Footer1 />
     </div>
   );
 }

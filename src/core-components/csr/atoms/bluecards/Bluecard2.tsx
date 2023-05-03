@@ -1,5 +1,5 @@
-import React from "react";
-import styles from "../Styles/BlueCard1.module.css";
+import React from 'react';
+import styles from '@/styles/modules/BlueCard1.module.css';
 export default function Bluecard1() {
   return (
     <div className={styles.box}>
@@ -17,16 +17,17 @@ export default function Bluecard1() {
           <form>
             <div className={styles.txt}>Subscribe to our newsletter</div>
             <div className="flex items-center justify-center pb-1">
-            <input
-            className={styles.form}
-              type="text"
-              id="input"
-              name="name"
-              placeholder="Your name here"
-            />
-            <button type="submit" className={styles.submit}>Submit</button>
+              <input
+                className={styles.form}
+                type="text"
+                id="input"
+                name="name"
+                placeholder="Your name here"
+              />
+              <button type="submit" className={styles.submit}>
+                Submit
+              </button>
             </div>
-            
           </form>
         </div>
       </div>

@@ -1,10 +1,10 @@
-import React from "react";
-import Logo from "@/components/navbar/Logo";
-import styles from "@/styles/login.module.css";
-import Link from "next/link";
+import React from 'react';
+import Logo from '@/core-components/csr/molecules/navbar/Logo';
+import styles from '@/styles/login.module.css';
+import Link from 'next/link';
 
-import { AiFillApple } from "react-icons/ai";
-import { FcGoogle } from "react-icons/fc";
+import {AiFillApple} from 'react-icons/ai';
+import {FcGoogle} from 'react-icons/fc';
 
 export default function Login() {
   return (
@@ -55,15 +55,12 @@ export default function Login() {
                   </div>
                 </div>
 
-                
-
                 <div>
                   <button
                     type="submit"
                     className="flex justify-center w-full px-4 py-2 text-sm font-medium text-white bg-blue-600 border border-transparent rounded-md shadow-sm bg-blue hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
                   >
                     <Link href="/">Continue</Link>
-                  
                   </button>
 
                   <h5 className="flex justify-center my-3">or</h5>

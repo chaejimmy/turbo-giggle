@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 const links = ['Room Stays', 'Find roommates'];
-import Find from './Find';
+import Find from './find';
 export default function RoomStays() {
   return (
     <div className="my-2 overflow-hidden">

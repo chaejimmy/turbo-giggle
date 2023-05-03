@@ -1,16 +1,16 @@
-import React from "react";
-import Navbar from "@/components/navbar/Navbar";
-import Image from "next/image";
-import styles from "../styles/hoteldetails.module.css"
-import Container from "@/components/Container";
-import Avatar from "@/components/Avatar";
-import HiShieldCheck from "react-icons/hi";
-import { IoShieldCheckmark } from "react-icons/io5";
-import Detailscard from "@/components/detailcard/detailscard";
-import { GiThreeLeaves } from "react-icons/gi";
-import { TbToolsKitchen2 } from "react-icons/tb";
-import Footer1 from "@/components/footer/Footer1";
-import Link from "next/link";
+import React from 'react';
+import Navbar from '@/core-components/csr/molecules/navbar/Navbar';
+import Image from 'next/image';
+import styles from '../styles/hoteldetails.module.css';
+import Container from '@/core-components/csr/atoms/container';
+import Avatar from '@/core-components/csr/atoms/avatar';
+import HiShieldCheck from 'react-icons/hi';
+import {IoShieldCheckmark} from 'react-icons/io5';
+import Detailscard from '@/core-components/csr/atoms/detailcard/detailscard';
+import {GiThreeLeaves} from 'react-icons/gi';
+import {TbToolsKitchen2} from 'react-icons/tb';
+import Footer1 from '@/core-components/csr/molecules/footer/Footer1';
+import Link from 'next/link';
 
 export default function Hoteldetails() {
   return (
@@ -76,7 +76,7 @@ export default function Hoteldetails() {
           <Container>
             <div className="flex flex-row items-center gap-3 p-4 rounded-full cursor-pointer md:py-1 md:px-2">
               <div className="md:block">
-                <Avatar src={""} />
+                <Avatar src={''} />
               </div>
               <div className={styles.hostedby}>Hosted by Gahazal</div>
               <button className="px-6 py-2 ml-20 text-xs text-black transition-colors duration-300 bg-white border rounded-full border-grey hover:bg-black hover:text-white hover:border-transparent">
