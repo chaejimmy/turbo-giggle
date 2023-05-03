@@ -1,4 +1,8 @@
-## Totel
+# Totel
+
+## Website Output
+
+https://totel-web.vercel.app
 
 ### Prerequisites:
 
