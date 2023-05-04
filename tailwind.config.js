@@ -21,11 +21,13 @@ module.exports = {
       blue: '#574EFA',
       black: '#000000',
       grey: '#272d37',
+      lightGrey: '#DAE0E6',
       'gray-50': '#5F6D7E',
     },
     fontSize: {
       xs: '.75rem',
       sm: '.875rem',
+      ssm: '14px',
       md: '16px',
       tiny: '.875rem',
       base: '1rem',
