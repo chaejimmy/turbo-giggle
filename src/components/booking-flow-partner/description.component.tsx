@@ -1,4 +1,5 @@
 import React from 'react';
+import {RoundButton} from '@/core-components/csr';
 
 const Description = () => {
   return (
@@ -25,9 +26,7 @@ const Description = () => {
               veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
               ex ea commodo consequat.
             </span>
-            <button className="bg-white rounded-3xl w-fit p-2 shadow-xl border border-lightGrey">
-              Show more
-            </button>
+            <RoundButton title="Show more" className="text-black" />
           </div>
         </div>
         <div>
@@ -36,12 +35,8 @@ const Description = () => {
               $75-$90<span className="text-sm font-normal"> / night</span>
             </span>
             <div className="flex gap-2 my-2">
-              <button className=" rounded-3xl w-fit p-2 shadow-xl border border-lightGrey">
-                Send Message
-              </button>
-              <button className=" rounded-3xl w-fit p-2 shadow-xl border border-lightGrey bg-purple text-white">
-                Send Proposal
-              </button>
+              <RoundButton title="Send Message" className="text-black" />
+              <RoundButton title="Send Proposal" className="bg-purple" />
             </div>
             <span className="text-center text-sm">
               You won’t be charged yet

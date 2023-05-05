@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import {TbShare3} from 'react-icons/tb';
 import {MdVerified} from 'react-icons/md';
+import {RoundButton} from '@/core-components/csr';
 const IdentityVerified = () => {
   return (
     <>
@@ -26,6 +27,7 @@ const IdentityVerified = () => {
           <button className="rounded-md border h-fit p-1 border-x-gray-50">
             Follow
           </button>
+
           <button className="rounded-md border h-fit p-1 border-x-gray-50">
             <TbShare3 />
           </button>
@@ -68,9 +70,11 @@ const IdentityVerified = () => {
             />
           </div>
         </div>
-        <button className="bg-white rounded-3xl w-fit p-3 absolute bottom-4 right-4">
-          Show more photos
-        </button>
+
+        <RoundButton
+          title="Show more photos"
+          className="bg-white text-black absolute bottom-4 right-4"
+        />
       </div>
     </>
   );
