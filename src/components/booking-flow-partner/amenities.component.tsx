@@ -14,7 +14,7 @@ const Amenities = () => {
   return (
     <div className="my-6">
       <span className="text-2xl font-bold">Amenities Looking for</span>
-      <div className="w-1/2 grid grid-cols-2 grid-rows-5 py-4 gap-4">
+      <div className="w-1/2 grid grid-cols-2 grid-rows-5 py-4 gap-2">
         {arrAmenities?.map(({title, icon}) => (
           <div className="flex " key={title}>
             <span className="flex items-center gap-2">
